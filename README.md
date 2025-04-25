@@ -7,8 +7,8 @@ It analyzes a user's question, searches the web, extracts key information from p
 
 ## 🚀 Live Demo
 
-[🔗 Visit the App](https://YOUR-STREAMLIT-APP-URL)  
-_(replace with your actual deployed link)_
+[🔗 Visit the App](https://your-personal-web-research-agent.streamlit.app/)
+
 
 ---
 
