@@ -39,6 +39,7 @@ summarize_with_gemini(text, query)
 Markdown report with sources
     ↓
 Streamlit frontend display
+
 ```
 ---
 
@@ -113,5 +114,32 @@ SERPER_API_KEY = your-serper-key
 GEMINI_API_KEY = your-gemini-key
 ```
 4. Click **"Deploy"**
+
+## 📁 File Structure
+
+```bash
+.
+├── agent.py              # Core agent orchestration
+├── main.py               # Streamlit app
+├── search_tool.py        # Web search (Serper.dev)
+├── scraper.py            # Web scraping with BeautifulSoup
+├── summarizer.py         # Gemini-based summarization
+├── test_agent.py         # Test script
+├── requirements.txt      # Python dependencies
+├── README.md             # This file
+└── .env                  # API keys (not committed)
+```
+
+## 💡 Example Queries
+
+- "How has AI evolved over the years?"
+
+- "Recent developments in Alzheimer's research"
+
+- "Why did the Berlin Wall fall?"
+
+## 📜 License
+MIT License.
+
 
 
